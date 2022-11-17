@@ -1,5 +1,4 @@
 # Neural-algorithm-of-Style-Transfer
 
-Implementation of Image Style Transfer using Convolutional Neural Networks from the paper 
-The field of natural language processing (NLP) has become mostly dominated by deep learning approaches
-(Young et al., [2018](https://doi.org/10.1109/MCI.2018.2840738))
+Implementation of Image Style Transfer using Convolutional Neural Networks from the paper (L.A.Gatys, A.S.Ecker and M.Bethge, [2016](https://openaccess.thecvf.com/content_cvpr_2016/html/Gatys_Image_Style_Transfer_CVPR_2016_paper.html))
+
