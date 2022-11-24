@@ -10,6 +10,7 @@ Choosing an image as a content and a style image, you can combine them and here 
 <p align="center">
   Content Image
 </p>
+<p align="center">
   <img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/ContentImages/Lion.jpg" width="256" height="256" title="Content Image">  
 </p>
 
