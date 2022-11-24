@@ -8,4 +8,5 @@ Choosing an image as a content and a style image, you can combine them and here 
 
 <img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/ContentImages/Lion.jpg" width="256" height="256" title="Content Image"> 
     Style Images
-<img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/StyleImages/Portrait.jpg" width="256" height="256" title="Style Image 1"> <img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/StyleImages/Scream.jpg" width="256" height="256" title="Style Image 2"> <img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/StyleImages/TheMuse.jpg" width="256" height="256" title="Style Image 3"/> 
+<p float="left">
+<img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/StyleImages/Portrait.jpg" width="256" height="256" title="Style Image 1"> <img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/StyleImages/Scream.jpg" width="256" height="256" title="Style Image 2"> <img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/StyleImages/TheMuse.jpg" width="256" height="256" title="Style Image 3"/> </p>
