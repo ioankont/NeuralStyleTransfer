@@ -7,7 +7,9 @@ Implementation of Image Style Transfer using Convolutional Neural Networks from 
 Choosing an image as a content and a style image, you can combine them and here are the results.
 <figure> 
   <figcaption>Content Image</figcaption> 
+<p align="center">
   <img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/ContentImages/Lion.jpg" width="256" height="256" title="Content Image">  
+</p>
 </figure>
 Style Images
 <p float="left">
