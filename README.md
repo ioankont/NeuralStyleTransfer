@@ -9,6 +9,7 @@ Choosing an image as a content and a style image, you can combine them and here 
   <figcaption>Content Image</figcaption> 
   <img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/ContentImages/Lion.jpg" width="256" height="256" title="Content Image">  
 </figure>
+Style Images
 <p float="left">
     <img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/StyleImages/Portrait.jpg" width="256" height="256" title="Style Image 1"> 
     <img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/StyleImages/Scream.jpg" width="256" height="256" title="Style Image 2"> 
