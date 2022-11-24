@@ -5,12 +5,16 @@ Implementation of Image Style Transfer using Convolutional Neural Networks from 
 # How about mixing an image with the style of your favorite painter?
 
 Choosing an image as a content and a style image, you can combine them and here are the results.
-<figure> 
-  <figcaption>Content Image</figcaption> 
+<p align="center">
+  <figure> 
+    <figcaption>Content Image</figcaption> 
+  </figure>
+</p>
+  
 <p align="center">
   <img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/ContentImages/Lion.jpg" width="256" height="256" title="Content Image">  
 </p>
-</figure>
+
 Style Images
 <p float="left">
     <img src="https://github.com/ioankont/NeuralStyleTransfer/blob/main/pictures/StyleImages/Portrait.jpg" width="256" height="256" title="Style Image 1"> 
