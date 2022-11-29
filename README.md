@@ -52,3 +52,4 @@ A white-noise image *x* passes through the VGG19 and we extract his content repr
 ### Lstyle
 For *x* and the style image *a* we extract the style representation from block1_1, block2_1, block3_1, block4_1, block5_1. We calculate the Gram Matrices for all layers and as a result it occurs the function *Lstyle*. Reducing this function, constructing an image *x* that matches the style representation of the style image *a*.
 
+ 
