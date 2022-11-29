@@ -39,6 +39,6 @@ Choosing an image as a content and a style image, you can combine them and here 
 </p>
 
 # Description
-
-Used a pretrained model VGG19 to extract the feauture representations of the content and the style images.
+It is an image texture transfer algorithm, and since the texture and style are also based on the deep representations of the images, it turns into an optimization problem, where the feature representations of the new image will be derived to match the features of the content image (content image) and style image (style image).
+Used a pretrained model VGG19 to extract the feauture representations of the content and the style images. We build our result in a white-noise image.
 For content representations, it was showned that in a trained CNN in object detection, we can represent the semantic information of the input image in a layer, reconstructing the image with the feauture maps of this layer. Reconstructing in low-lever layers, would reuslt in the exact pixel values, while in high-lever layers the objects are represented without limiting the pixel values.
