@@ -43,4 +43,6 @@ It is a Style Transfer algorithm, and since the texture and style are also based
 <br />
 Used a pretrained model VGG19 to extract the feauture representations of the content and the style images. We build our result in a white-noise image. <br />
 For content representations, it was showned that in a trained CNN in object detection, we can represent the semantic information of the input image in a layer, reconstructing the image with the feauture maps of this layer. Reconstructing in low-lever layers, would reuslt in the exact pixel values, while in high-lever layers the objects are represented without limiting the pixel values. <br />
-For style representations, used Gram Matrix which calculate the correlations between different responses. As a result we extract the style feautures of an image. Included the feauture correlations of different layers of the network, so that the result includes a multi-scale representation of texture informations
+For style representations, used Gram Matrix which calculate the correlations between different responses. As a result we extract the style feautures of an image. Included the feauture correlations of different layers of the network, so that the result consists of a multi-scale representation of texture informations.
+
+# Algorithm
