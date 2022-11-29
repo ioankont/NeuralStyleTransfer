@@ -38,5 +38,5 @@ Choosing an image as a content and a style image, you can combine them and here 
   </p>
 </p>
 
-Used a pretrained model VGG19 to extract the feauture representations of the content and the style images
-For content representations, it was showned that in a trained CNN in object detection, we can represent the semantic information of the input image in a layer, reconstructing the image with the feauture maps of this layer. Reconstructing in low-lever layers, would reuslt in the exact pixel values, while in high-lever layers the objects are represented, without limiting the pixel values.
+Used a pretrained model VGG19 to extract the feauture representations of the content and the style images.
+For content representations, it was showned that in a trained CNN in object detection, we can represent the semantic information of the input image in a layer, reconstructing the image with the feauture maps of this layer. Reconstructing in low-lever layers, would reuslt in the exact pixel values, while in high-lever layers the objects are represented without limiting the pixel values.
