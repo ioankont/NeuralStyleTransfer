@@ -45,8 +45,7 @@ Used a pretrained model VGG19 to extract the feauture representations of the con
 For content representations, it was showned that in a trained CNN in object detection, we can represent the semantic information of the input image in a layer, reconstructing the image with the feauture maps of this layer. Reconstructing in low-lever layers, would reuslt in the exact pixel values, while in high-lever layers the objects are represented without limiting the pixel values. <br />
 For style representations, used Gram Matrix which calculate the correlations between different responses. As a result we extract the style feautures of an image. Included the feauture correlations of different layers of the network, so that the result consists of a multi-scale representation of texture informations.
 
-### Algorithm
-<br />
+### Algorithm <br />
 ### Lcontent
 A white-noise image _x_ passes through the VGG19 and we extract his content representation from block4_2. Similarly, from the same layer for content image *p*. We calculate *Lcontent* so that the feature represantion of the *x* matching to *p* with the use of gradient descent. <br />
 ### Lstyle
