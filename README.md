@@ -46,9 +46,9 @@ For content representations, it was showned that in a trained CNN in object dete
 For style representations, used Gram Matrix which calculate the correlations between different responses. As a result we extract the style feautures of an image. Included the feauture correlations of different layers of the network, so that the result consists of a multi-scale representation of texture informations.
 
 ### Algorithm <br />
-#### Lcontent
+#### *Lcontent*
 A white-noise image _x_ passes through the VGG19 and we extract his content representation from block4_2. Similarly, from the same layer for content image *p*. We calculate *Lcontent* so that the feature represantion of the *x* matching to *p* with the use of gradient descent. <br />
-#### Lstyle
+#### *Lstyle*
 For *x* and the style image *a* we extract the style representation from block1_1, block2_1, block3_1, block4_1, block5_1. We calculate the Gram Matrices for all layers and as a result it occurs the function *Lstyle*. Reducing this function, constructing an image *x* that matches the style representation of the style image *a*.
-
+#### *Lloss* = α*lcontent* + β*Lstyle*
  
