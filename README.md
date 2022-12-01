@@ -53,7 +53,8 @@ For *x* and the style image *a* we extract the style representation from block1_
 #### *Lloss* = α*Lcontent* + β*Lstyle* <br />
 <p align="center">
   <img src="https://user-images.githubusercontent.com/118340733/205013101-d8ead630-6664-4024-a419-3ef075c3f5cf.JPG" width="800" height="400" title="Content Image">
-</p>
+</p> <br />
+The unusual in this algorithm is that we do not update the weights of a model, but the values of the white-noise image *x*
 
 
  
